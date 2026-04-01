@@ -1,1 +1,3 @@
 # Controlling-an-RGB-LED-Using-Two-Push-Buttons-
+In this project, an Arduino Uno board is used to control an RGB LED by means of two push buttons. The project allows the user to change the LED color and select its operating mode (steady light or blinking) in a structured and efficient programming approach without using the delay() function. The first push button is connected to digital pin 2, and its function is to change the output pin (color). The program cycles through three digital output pins: 11, 12, and 13, where each pin represents one color of the RGB LED (Red, Green, and Blue). The second push button is connected to digital pin 3, and its role is to control the behavior of the selected output, choosing between steady ON mode or blinking mode.
+
